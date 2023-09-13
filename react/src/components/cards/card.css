@@ -1,0 +1,11 @@
+.card_container{
+    height: 30vh;
+    width: 15%;
+    background-color: rgba(255, 228, 196, 0.144);
+    transition: transform .5s; 
+}
+
+.card_container:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
